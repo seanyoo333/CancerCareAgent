@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cancer Care Agent 테스트</title>
+    <style>
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        .agent-box {
+            margin: 10px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .agent-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .agent-status {
+            padding: 5px;
+            margin-top: 5px;
+            background-color: #e8f4f8;
+            border-radius: 3px;
+        }
+        .response-box { 
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            white-space: pre-wrap;
+        }
+        .loading { 
+            color: #666;
+            margin: 10px 0;
+        }
+        .task-flow {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    {% csrf_token %}  <!-- 추가 -->
+</head>
+<body>
+    <div class="container">
+        <h2>Cancer Care Agent 테스트</h2>
+        
+        <div>
+            <label for="message">질문:</label><br>
+            <textarea id="message" rows="4" style="width: 100%" 
+                placeholder="예시: 유방암 환자의 식단 관리는 어떻게 해야 하나요?"></textarea>
+        </div>
+        
+        <div style="margin-top: 10px;">
+            <label>
+                <input type="checkbox" id="prescription" value="Yes"> 처방전 필요
+            </label>
+        </div>
+        
+        <button onclick="sendMessage()" style="margin-top: 10px;">전송</button>
+
+        <div class="task-flow">
+            <h3>작업 흐름:</h3>
+            <ol>
+                <li>RAG Agent가 저장된 문서에서 관련 정보 검색</li>
+                <li>Researcher가 웹 검색으로 추가 정보 수집</li>
+                <li>Health Expert가 종합적인 건강 조언 제공</li>
+            </ol>
+        </div>
+        
+        <div id="agents-status">
+            <div class="agent-box" id="rag-agent">
+                <div class="agent-title">RAG Agent 상태</div>
+                <div class="agent-status">대기 중...</div>
+            </div>
+            
+            <div class="agent-box" id="researcher">
+                <div class="agent-title">Researcher 상태</div>
+                <div class="agent-status">대기 중...</div>
+            </div>
+            
+            <div class="agent-box" id="health-expert">
+                <div class="agent-title">Health Expert 상태</div>
+                <div class="agent-status">대기 중...</div>
+            </div>
+        </div>
+        
+        <div id="loading" class="loading" style="display: none;">
+            처리 중... Agent들이 협업하여 응답을 생성하고 있습니다.
+        </div>
+        
+        <div id="final-response" class="response-box"></div>
+    </div>
+
+    <script>
+        function updateAgentStatus(agentId, status, result = '') {
+            const agentBox = $(`#${agentId} .agent-status`);
+            agentBox.html(status + (result ? '<br><small>' + result + '</small>' : ''));
+        }
+
+        function resetAgentStatuses() {
+            updateAgentStatus('rag-agent', '대기 중...');
+            updateAgentStatus('researcher', '대기 중...');
+            updateAgentStatus('health-expert', '대기 중...');
+        }
+
+        function sendMessage() {
+            $('#loading').show();
+            $('#final-response').empty();
+            resetAgentStatuses();
+            
+            updateAgentStatus('rag-agent', '작업 중... (저장된 문서 검색)');
+            
+            $.ajax({
+                url: '/api/health/',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    question: $('#message').val()
+                }),
+                headers: {
+                    'X-CSRFToken': getCookie('csrftoken')
+                },
+                success: function(response) {
+                    $('#loading').hide();
+                    console.log('Response:', response);  // 응답 로깅 추가
+                    
+                    // RAG Agent 완료
+                    updateAgentStatus('rag-agent', '완료', '관련 문서 검색 완료');
+                    
+                    // Researcher 완료
+                    updateAgentStatus('researcher', '완료', '웹 검색 및 팩트 체크 완료');
+                    
+                    // Health Expert 완료
+                    updateAgentStatus('health-expert', '완료', '종합적인 건강 조언 생성 완료');
+                    
+                    // 최종 응답 표시
+                    $('#final-response').html(
+                        '<h4>최종 응답:</h4>' +
+                        '<div>' + response.message + '</div>'
+                    );
+                },
+                error: function(error) {
+                    $('#loading').hide();
+                    console.error('Error:', error);  // 에러 로깅 추가
+                    
+                    updateAgentStatus('rag-agent', '오류 발생');
+                    updateAgentStatus('researcher', '오류 발생');
+                    updateAgentStatus('health-expert', '오류 발생');
+                    $('#final-response').text('Error: ' + JSON.stringify(error));
+                }
+            });
+        }
+
+        // CSRF 토큰을 가져오는 함수
+        function getCookie(name) {
+            let cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+    </script>
+</body>
+</html>

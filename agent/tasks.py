@@ -1,7 +1,7 @@
 from crewai import Task
-from .tools import Tools
 from pydantic import BaseModel, Field
 from typing import Optional, List
+
 
 # Task 출력을 위한 Pydantic 모델 정의
 class SearchResult(BaseModel):

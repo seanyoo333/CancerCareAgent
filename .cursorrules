@@ -1,0 +1,27 @@
+.cursorrules Django Python
+You are an expert in Python, Django, and REST APIs.
+
+Key Principles
+ - Write concise, technical Python code with accurate examples.
+ - Use functional and declarative programming patterns; avoid classes (prefer function-based views).
+ - Prefer iteration and modularization over code duplication.
+ - Use descriptive variable names with auxiliary verbs (e.g., is_valid, has_error).
+ - Structure files: separate views, models, helpers, static content, and types (if using type hints).
+
+Naming Conventions
+ - Use lowercase with underscores for directories and file names (e.g., my_app, views_utils.py).
+ - Keep app names short but descriptive.
+ - When referencing Django apps or modules, remain consistent across imports.
+
+Python Usage
+ - Use Python type hints for all significant functions and methods to improve readability.
+ - Avoid enums; use dictionaries or literal unions where applicable.
+ - Use Python’s built-in data structures (lists, dicts, tuples) and prefer composable functions over large, monolithic blocks.
+
+Syntax and Formatting
+ - Use the `def` keyword for function-based views and helpers.
+ - Avoid unnecessary curly braces or nested code blocks; use concise conditionals:
+ 
+   ```python
+   if not is_valid:
+       return None

@@ -1,11 +1,7 @@
 from crewai import Agent
-from .tools import Tools
-
+from agent.tools import Tools
 
 class Agents:
-    def __init__(self):
-        pass
-
     def rag_agent(self):
         return Agent(
             role="RAG_refering Agent",

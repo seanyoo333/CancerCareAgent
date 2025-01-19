@@ -1,0 +1,638 @@
+INFO 2025-01-18 13:57:37,984 autoreload Watching for file changes with StatReloader
+INFO 2025-01-18 13:57:40,863 _client HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+INFO 2025-01-18 13:57:45,448 posthog Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO 2025-01-18 13:57:45,828 posthog Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO 2025-01-18 13:59:48,173 autoreload C:\developer\django_home\CancerCareAgent\llm_api\settings.py changed, reloading.
+[INFO] 2025-01-18 13:59:49,564 autoreload 35220 33312 Watching for file changes with StatReloader
+[INFO] 2025-01-18 14:00:22,600 autoreload 35220 33312 C:\developer\django_home\CancerCareAgent\agent\views.py changed, reloading.
+[INFO] 2025-01-18 14:00:23,983 autoreload 16952 29256 Watching for file changes with StatReloader
+[INFO] 2025-01-18 14:01:02,051 autoreload 35372 35472 Watching for file changes with StatReloader
+[INFO] 2025-01-18 14:03:19,244 autoreload 35372 35472 C:\developer\django_home\CancerCareAgent\agent\views.py changed, reloading.
+[INFO] 2025-01-18 14:03:20,377 autoreload 35744 23904 Watching for file changes with StatReloader
+[INFO] 2025-01-18 14:08:13,262 autoreload 35744 23904 C:\developer\django_home\CancerCareAgent\llm_api\urls.py changed, reloading.
+[INFO] 2025-01-18 14:08:14,346 autoreload 36808 36812 Watching for file changes with StatReloader
+[INFO] 2025-01-18 14:09:52,633 autoreload 36808 36812 C:\developer\django_home\CancerCareAgent\agent\crew.py changed, reloading.
+[INFO] 2025-01-18 14:09:53,689 autoreload 31572 33980 Watching for file changes with StatReloader
+[INFO] 2025-01-18 14:09:59,851 crew 31572 33980 Crew 싱글톤 인스턴스 생성 시작
+[INFO] 2025-01-18 14:09:59,852 crew 31572 33980 Crew 생성 시작
+[INFO] 2025-01-18 14:09:59,852 crew 31572 33980 Agent 생성 중...
+[INFO] 2025-01-18 14:09:59,855 crew 31572 33980 Agent 생성 완료
+[INFO] 2025-01-18 14:09:59,855 crew 31572 33980 Task 생성 중...
+[INFO] 2025-01-18 14:09:59,856 crew 31572 33980 Task 생성 완료
+[INFO] 2025-01-18 14:10:01,036 crew 31572 33980 Crew 생성 완료
+[INFO] 2025-01-18 14:10:01,037 crew 31572 33980 Crew 싱글톤 인스턴스 생성 완료
+[INFO] 2025-01-18 14:14:35,276 autoreload 34920 35348 Watching for file changes with StatReloader
+[INFO] 2025-01-18 14:14:41,271 crew 34920 35348 Crew 싱글톤 인스턴스 생성 시작
+[INFO] 2025-01-18 14:14:41,271 crew 34920 35348 Crew 생성 시작
+[INFO] 2025-01-18 14:14:41,271 crew 34920 35348 Agent 생성 중...
+[INFO] 2025-01-18 14:14:41,274 crew 34920 35348 Agent 생성 완료
+[INFO] 2025-01-18 14:14:41,274 crew 34920 35348 Task 생성 중...
+[INFO] 2025-01-18 14:14:41,275 crew 34920 35348 Task 생성 완료
+[INFO] 2025-01-18 14:14:42,423 crew 34920 35348 Crew 생성 완료
+[INFO] 2025-01-18 14:14:42,424 crew 34920 35348 Crew 싱글톤 인스턴스 생성 완료
+[INFO] 2025-01-18 14:18:50,297 autoreload 34920 35348 C:\developer\django_home\CancerCareAgent\llm_api\settings.py changed, reloading.
+[INFO] 2025-01-18 14:18:51,353 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 14:18:57,679 agent.crew crew Crew 싱글톤 인스턴스 생성 시작
+[INFO] 2025-01-18 14:18:57,680 agent.crew crew Crew 생성 시작
+[INFO] 2025-01-18 14:18:57,680 agent.crew crew Agent 생성 중...
+[INFO] 2025-01-18 14:18:57,683 agent.crew crew Agent 생성 완료
+[INFO] 2025-01-18 14:18:57,683 agent.crew crew Task 생성 중...
+[INFO] 2025-01-18 14:18:57,685 agent.crew crew Task 생성 완료
+[INFO] 2025-01-18 14:18:58,903 agent.crew crew Crew 생성 완료
+[INFO] 2025-01-18 14:18:58,903 agent.crew crew Crew 싱글톤 인스턴스 생성 완료
+[INFO] 2025-01-18 14:20:41,286 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\views.py changed, reloading.
+[INFO] 2025-01-18 14:20:42,698 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 14:20:48,844 agent.crew crew Crew 싱글톤 인스턴스 생성 시작
+[INFO] 2025-01-18 14:20:48,845 agent.crew crew Crew 생성 시작
+[INFO] 2025-01-18 14:20:48,845 agent.crew crew Agent 생성 중...
+[INFO] 2025-01-18 14:20:48,847 agent.crew crew Agent 생성 완료
+[INFO] 2025-01-18 14:20:48,848 agent.crew crew Task 생성 중...
+[INFO] 2025-01-18 14:20:48,850 agent.crew crew Task 생성 완료
+[INFO] 2025-01-18 14:20:50,026 agent.crew crew Crew 생성 완료
+[INFO] 2025-01-18 14:20:50,026 agent.crew crew Crew 싱글톤 인스턴스 생성 완료
+[INFO] 2025-01-18 14:28:23,811 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\tools.py changed, reloading.
+[INFO] 2025-01-18 14:28:25,116 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 14:28:30,997 agent.crew crew Crew 싱글톤 인스턴스 생성 시작
+[INFO] 2025-01-18 14:28:30,997 agent.crew crew Crew 생성 시작
+[INFO] 2025-01-18 14:28:30,997 agent.crew crew Agent 생성 중...
+[INFO] 2025-01-18 14:28:30,999 agent.crew crew Agent 생성 완료
+[INFO] 2025-01-18 14:28:30,999 agent.crew crew Task 생성 중...
+[INFO] 2025-01-18 14:28:31,001 agent.crew crew Task 생성 완료
+[INFO] 2025-01-18 14:28:32,131 agent.crew crew Crew 생성 완료
+[INFO] 2025-01-18 14:28:32,132 agent.crew crew Crew 싱글톤 인스턴스 생성 완료
+[INFO] 2025-01-18 14:29:42,194 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\views.py changed, reloading.
+[INFO] 2025-01-18 14:29:43,432 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 14:29:49,773 agent.crew crew Crew 싱글톤 인스턴스 생성 시작
+[INFO] 2025-01-18 14:29:49,773 agent.crew crew Crew 생성 시작
+[INFO] 2025-01-18 14:29:49,773 agent.crew crew Agent 생성 중...
+[INFO] 2025-01-18 14:29:49,776 agent.crew crew Agent 생성 완료
+[INFO] 2025-01-18 14:29:49,776 agent.crew crew Task 생성 중...
+[INFO] 2025-01-18 14:29:49,778 agent.crew crew Task 생성 완료
+[INFO] 2025-01-18 14:29:50,918 agent.crew crew Crew 생성 완료
+[INFO] 2025-01-18 14:29:50,919 agent.crew crew Crew 싱글톤 인스턴스 생성 완료
+[INFO] 2025-01-18 15:28:34,000 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\crew.py changed, reloading.
+[INFO] 2025-01-18 15:28:35,229 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 15:28:41,508 agent.crew crew Crew 싱글톤 인스턴스 생성 시작
+[INFO] 2025-01-18 15:28:41,509 agent.crew crew Crew 생성 시작
+[INFO] 2025-01-18 15:28:41,509 agent.crew crew Agent 생성 중...
+[INFO] 2025-01-18 15:28:41,512 agent.crew crew Agent 생성 완료
+[INFO] 2025-01-18 15:28:41,512 agent.crew crew Task 생성 중...
+[INFO] 2025-01-18 15:28:41,514 agent.crew crew Task 생성 완료
+[INFO] 2025-01-18 15:28:42,690 agent.crew crew Crew 생성 완료
+[INFO] 2025-01-18 15:28:42,690 agent.crew crew Crew 싱글톤 인스턴스 생성 완료
+[INFO] 2025-01-18 15:33:21,084 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\crew.py changed, reloading.
+[INFO] 2025-01-18 15:33:21,980 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 15:33:28,228 agent.crew crew Crew 싱글톤 인스턴스 생성 시작
+[INFO] 2025-01-18 15:33:28,229 agent.crew crew Crew 생성 시작
+[INFO] 2025-01-18 15:33:28,229 agent.crew crew Agent 생성 중...
+[INFO] 2025-01-18 15:33:28,232 agent.crew crew Agent 생성 완료
+[INFO] 2025-01-18 15:33:28,232 agent.crew crew Task 생성 중...
+[INFO] 2025-01-18 15:33:28,234 agent.crew crew Task 생성 완료
+[INFO] 2025-01-18 15:33:29,459 agent.crew crew Crew 생성 완료
+[INFO] 2025-01-18 15:33:29,459 agent.crew crew Crew 싱글톤 인스턴스 생성 완료
+[INFO] 2025-01-18 15:33:59,524 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\crew.py changed, reloading.
+[INFO] 2025-01-18 15:34:00,734 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 15:34:06,974 agent.crew crew Crew 싱글톤 인스턴스 생성 시작
+[INFO] 2025-01-18 15:34:06,974 agent.crew crew Crew 생성 시작
+[INFO] 2025-01-18 15:34:06,974 agent.crew crew Agent 생성 중...
+[INFO] 2025-01-18 15:34:06,977 agent.crew crew Agent 생성 완료
+[INFO] 2025-01-18 15:34:06,977 agent.crew crew Task 생성 중...
+[INFO] 2025-01-18 15:34:06,979 agent.crew crew Task 생성 완료
+[INFO] 2025-01-18 15:34:08,229 agent.crew crew Crew 생성 완료
+[INFO] 2025-01-18 15:34:08,229 agent.crew crew Crew 싱글톤 인스턴스 생성 완료
+[INFO] 2025-01-18 15:36:12,946 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\crew.py changed, reloading.
+[INFO] 2025-01-18 15:36:14,234 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 15:36:20,261 agent.crew crew Crew 싱글톤 인스턴스 생성 시작
+[INFO] 2025-01-18 15:36:20,261 agent.crew crew Crew 생성 시작
+[INFO] 2025-01-18 15:36:20,262 agent.crew crew Agent 생성 중...
+[INFO] 2025-01-18 15:36:20,265 agent.crew crew Agent 생성 완료
+[INFO] 2025-01-18 15:36:20,265 agent.crew crew Task 생성 중...
+[INFO] 2025-01-18 15:36:20,266 agent.crew crew Task 생성 완료
+[INFO] 2025-01-18 15:36:21,425 agent.crew crew Crew 생성 완료
+[INFO] 2025-01-18 15:36:21,425 agent.crew crew Crew 싱글톤 인스턴스 생성 완료
+[INFO] 2025-01-18 15:36:40,274 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\crew.py changed, reloading.
+[INFO] 2025-01-18 15:36:41,484 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 15:36:47,857 agent.crew crew Crew 싱글톤 인스턴스 생성 시작
+[INFO] 2025-01-18 15:36:47,858 agent.crew crew Crew 생성 시작
+[INFO] 2025-01-18 15:36:47,858 agent.crew crew Agent 생성 중...
+[INFO] 2025-01-18 15:36:47,862 agent.crew crew Agent 생성 완료
+[INFO] 2025-01-18 15:36:47,862 agent.crew crew Task 생성 중...
+[INFO] 2025-01-18 15:36:47,863 agent.crew crew Task 생성 완료
+[INFO] 2025-01-18 15:36:49,032 agent.crew crew Crew 생성 완료
+[INFO] 2025-01-18 15:36:49,033 agent.crew crew Crew 싱글톤 인스턴스 생성 완료
+[INFO] 2025-01-18 15:38:10,249 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\crew.py changed, reloading.
+[INFO] 2025-01-18 15:38:11,092 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 15:38:45,227 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\views.py changed, reloading.
+[INFO] 2025-01-18 15:38:45,982 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 15:39:55,494 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\crew.py changed, reloading.
+[INFO] 2025-01-18 15:39:56,294 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 15:40:21,294 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\crew.py changed, reloading.
+[INFO] 2025-01-18 15:40:22,160 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:06:23,472 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\tools.py changed, reloading.
+[INFO] 2025-01-18 16:06:24,327 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:20:08,506 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\llm_api\settings.py changed, reloading.
+[INFO] 2025-01-18 16:20:09,400 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:21:42,252 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\llm_api\urls.py changed, reloading.
+[INFO] 2025-01-18 16:21:43,097 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:30:43,492 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:32:04,596 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:42:17,360 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\tools.py changed, reloading.
+[INFO] 2025-01-18 16:42:18,145 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:43:14,256 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\tools.py changed, reloading.
+[INFO] 2025-01-18 16:43:15,030 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:45:30,961 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\tasks.py changed, reloading.
+[INFO] 2025-01-18 16:45:31,880 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:46:11,483 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\tasks.py changed, reloading.
+[INFO] 2025-01-18 16:46:12,266 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:46:49,812 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\agents.py changed, reloading.
+[INFO] 2025-01-18 16:46:50,611 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:48:03,790 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\agents.py changed, reloading.
+[INFO] 2025-01-18 16:48:04,617 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:48:18,663 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\tools.py changed, reloading.
+[INFO] 2025-01-18 16:48:19,468 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:49:35,477 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\agents.py changed, reloading.
+[INFO] 2025-01-18 16:49:36,283 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:50:11,492 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\agents.py changed, reloading.
+[INFO] 2025-01-18 16:50:12,308 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:50:27,857 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\agents.py changed, reloading.
+[INFO] 2025-01-18 16:50:28,645 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:51:43,480 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\agents.py changed, reloading.
+[INFO] 2025-01-18 16:51:44,265 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 16:59:17,209 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\agents.py changed, reloading.
+[INFO] 2025-01-18 16:59:17,962 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:02:03,157 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\tools.py changed, reloading.
+[INFO] 2025-01-18 17:02:04,284 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:02:23,057 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\tools.py changed, reloading.
+[INFO] 2025-01-18 17:02:24,480 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:03:10,467 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\tools.py changed, reloading.
+[INFO] 2025-01-18 17:03:11,633 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:03:49,788 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\tools.py changed, reloading.
+[INFO] 2025-01-18 17:03:51,111 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:04:50,119 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\tools.py changed, reloading.
+[INFO] 2025-01-18 17:04:51,680 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:05:11,405 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:06:19,009 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\agents.py changed, reloading.
+[INFO] 2025-01-18 17:06:20,154 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:08:08,014 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\database\vector_store_manager.py changed, reloading.
+[INFO] 2025-01-18 17:08:08,896 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:09:31,678 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\agents.py changed, reloading.
+[INFO] 2025-01-18 17:09:32,588 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:10:21,180 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\agents.py changed, reloading.
+[INFO] 2025-01-18 17:10:22,067 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:10:37,649 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\agents.py changed, reloading.
+[INFO] 2025-01-18 17:10:38,388 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:14:50,965 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:15:26,564 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[WARNING] 2025-01-18 17:15:33,788 django.request log Not Found: /
+[WARNING] 2025-01-18 17:15:33,789 django.server basehttp "GET / HTTP/1.1" 404 2673
+[WARNING] 2025-01-18 17:15:34,477 django.request log Not Found: /favicon.ico
+[WARNING] 2025-01-18 17:15:34,478 django.server basehttp "GET /favicon.ico HTTP/1.1" 404 2724
+[WARNING] 2025-01-18 17:16:04,402 django.request log Not Found: /health/query/
+[WARNING] 2025-01-18 17:16:04,402 django.server basehttp "GET /health/query/ HTTP/1.1" 404 2730
+[WARNING] 2025-01-18 17:16:30,355 django.request log Not Found: /health/query/
+[WARNING] 2025-01-18 17:16:30,356 django.server basehttp "GET /health/query/ HTTP/1.1" 404 2730
+[WARNING] 2025-01-18 17:16:40,207 django.request log Not Found: /chat
+[WARNING] 2025-01-18 17:16:40,208 django.server basehttp "GET /chat HTTP/1.1" 404 2703
+[WARNING] 2025-01-18 17:16:45,796 django.request log Not Found: /chat/
+[WARNING] 2025-01-18 17:16:45,797 django.server basehttp "GET /chat/ HTTP/1.1" 404 2706
+[WARNING] 2025-01-18 17:17:16,883 django.request log Not Found: /chat/q=
+[WARNING] 2025-01-18 17:17:16,884 django.server basehttp "GET /chat/q=?dkd HTTP/1.1" 404 2718
+[INFO] 2025-01-18 17:39:18,553 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\llm_api\urls.py changed, reloading.
+[INFO] 2025-01-18 17:39:19,390 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:39:55,317 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\views.py changed, reloading.
+[INFO] 2025-01-18 17:39:56,173 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:40:12,232 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\views.py changed, reloading.
+[INFO] 2025-01-18 17:40:13,075 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[ERROR] 2025-01-18 17:40:46,448 django.request log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 15, in agent_test_page
+    return render(request, 'agent/agent_test.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: agent/agent_test.html
+[ERROR] 2025-01-18 17:40:46,451 django.server basehttp "GET / HTTP/1.1" 500 82547
+[INFO] 2025-01-18 17:43:11,758 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\llm_api\settings.py changed, reloading.
+[INFO] 2025-01-18 17:43:12,647 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[ERROR] 2025-01-18 17:43:20,060 django.request log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 15, in agent_test_page
+    return render(request, 'agent/agent_test.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: agent/agent_test.html
+[ERROR] 2025-01-18 17:43:20,063 django.server basehttp "GET / HTTP/1.1" 500 82398
+[WARNING] 2025-01-18 17:43:48,911 django.request log Not Found: /health/
+[WARNING] 2025-01-18 17:43:48,912 django.server basehttp "GET /health/ HTTP/1.1" 404 3043
+[INFO] 2025-01-18 17:46:27,132 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:54:32,387 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 17:58:26,291 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[ERROR] 2025-01-18 17:58:38,587 django.request log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 15, in agent_test_page
+    return render(request, 'agent/agent_test.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: agent/agent_test.html
+[ERROR] 2025-01-18 17:58:38,590 django.server basehttp "GET / HTTP/1.1" 500 82398
+[ERROR] 2025-01-18 17:59:20,195 django.request log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 15, in agent_test_page
+    return render(request, 'agent/agent_test.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: agent/agent_test.html
+[ERROR] 2025-01-18 17:59:20,197 django.server basehttp "GET / HTTP/1.1" 500 82535
+[ERROR] 2025-01-18 17:59:22,744 django.request log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 15, in agent_test_page
+    return render(request, 'agent/agent_test.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: agent/agent_test.html
+[ERROR] 2025-01-18 17:59:22,745 django.server basehttp "GET / HTTP/1.1" 500 82535
+[ERROR] 2025-01-18 17:59:27,698 django.request log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 15, in agent_test_page
+    return render(request, 'agent/agent_test.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: agent/agent_test.html
+[ERROR] 2025-01-18 17:59:27,700 django.server basehttp "GET / HTTP/1.1" 500 82535
+[ERROR] 2025-01-18 17:59:29,209 django.request log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 15, in agent_test_page
+    return render(request, 'agent/agent_test.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: agent/agent_test.html
+[ERROR] 2025-01-18 17:59:29,210 django.server basehttp "GET / HTTP/1.1" 500 82535
+[ERROR] 2025-01-18 17:59:30,838 django.request log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 15, in agent_test_page
+    return render(request, 'agent/agent_test.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: agent/agent_test.html
+[ERROR] 2025-01-18 17:59:30,840 django.server basehttp "GET / HTTP/1.1" 500 82535
+[INFO] 2025-01-18 18:01:27,196 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\llm_api\urls.py changed, reloading.
+[INFO] 2025-01-18 18:01:28,028 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 18:03:14,465 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\views.py changed, reloading.
+[INFO] 2025-01-18 18:03:15,320 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[ERROR] 2025-01-18 18:03:23,736 django.request log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 15, in agent_test_page
+    return render(request, 'agent/agent_test.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: agent/agent_test.html
+[ERROR] 2025-01-18 18:03:23,739 django.server basehttp "GET / HTTP/1.1" 500 82398
+[ERROR] 2025-01-18 18:03:25,650 django.request log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 15, in agent_test_page
+    return render(request, 'agent/agent_test.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: agent/agent_test.html
+[ERROR] 2025-01-18 18:03:25,652 django.server basehttp "GET / HTTP/1.1" 500 82535
+[ERROR] 2025-01-18 18:04:09,223 django.request log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 15, in agent_test_page
+    return render(request, 'agent/agent_test.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: agent/agent_test.html
+[ERROR] 2025-01-18 18:04:09,224 django.server basehttp "GET / HTTP/1.1" 500 82535
+[ERROR] 2025-01-18 18:04:52,035 django.request log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 15, in agent_test_page
+    return render(request, 'agent/agent_test.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: agent/agent_test.html
+[ERROR] 2025-01-18 18:04:52,036 django.server basehttp "GET / HTTP/1.1" 500 82535
+[INFO] 2025-01-18 18:05:16,630 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\views.py changed, reloading.
+[INFO] 2025-01-18 18:05:17,467 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[ERROR] 2025-01-18 18:05:27,374 django.request log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 15, in agent_test_page
+    return render(request, 'agent/agent_test_page.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: agent/agent_test_page.html
+[ERROR] 2025-01-18 18:05:27,378 django.server basehttp "GET / HTTP/1.1" 500 82488
+[INFO] 2025-01-18 18:07:49,343 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\views.py changed, reloading.
+[INFO] 2025-01-18 18:07:50,168 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[ERROR] 2025-01-18 18:07:59,335 django.request log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 15, in agent_test_page
+    return render(request, 'agent/agent_test.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: agent/agent_test.html
+[ERROR] 2025-01-18 18:07:59,338 django.server basehttp "GET / HTTP/1.1" 500 82398
+[ERROR] 2025-01-18 18:09:13,931 django.request log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 15, in agent_test_page
+    return render(request, 'agent/agent_test.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: agent/agent_test.html
+[ERROR] 2025-01-18 18:09:13,933 django.server basehttp "GET / HTTP/1.1" 500 82535
+[INFO] 2025-01-18 18:09:19,206 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\agents.py changed, reloading.
+[INFO] 2025-01-18 18:09:20,065 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 18:09:52,320 django.server basehttp "GET / HTTP/1.1" 200 5874
+[INFO] 2025-01-18 18:15:18,931 django.server basehttp "GET / HTTP/1.1" 200 6457
+[INFO] 2025-01-18 18:15:29,971 agent.views views 수신된 건강 질문: 유방암 환자는 뭘먹어?
+
+[INFO] 2025-01-18 18:15:29,971 agent.crew crew Crew 싱글톤 인스턴스 생성 시작
+[INFO] 2025-01-18 18:15:29,971 agent.crew crew Crew 생성 시작
+[INFO] 2025-01-18 18:15:29,972 agent.crew crew Agent 생성 중...
+[INFO] 2025-01-18 18:15:29,975 agent.crew crew Agent 생성 완료
+[INFO] 2025-01-18 18:15:29,975 agent.crew crew Task 생성 중...
+[INFO] 2025-01-18 18:15:29,976 agent.crew crew Task 생성 완료
+[INFO] 2025-01-18 18:15:31,263 agent.crew crew Crew 생성 완료
+[INFO] 2025-01-18 18:15:31,263 agent.crew crew Crew 싱글톤 인스턴스 생성 완료
+[INFO] 2025-01-18 18:15:31,263 agent.views views Crew에 질문 전달 시작
+[ERROR] 2025-01-18 18:15:31,269 agent.views views Crew 처리 중 오류: 'prescription'
+[ERROR] 2025-01-18 18:15:31,269 agent.views views Error in health_query: 'prescription'
+Traceback (most recent call last):
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 87, in health_query
+    raise crew_error
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 83, in health_query
+    response = crew.kickoff(inputs={"question": question})
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\crewai\crew.py", line 524, in kickoff
+    self._interpolate_inputs(inputs)
+  File "C:\developer\python\3.11.6\Lib\site-packages\crewai\crew.py", line 1057, in _interpolate_inputs
+    agent.interpolate_inputs(inputs)
+  File "C:\developer\python\3.11.6\Lib\site-packages\crewai\agents\agent_builder\base_agent.py", line 280, in interpolate_inputs
+    self.goal = self._original_goal.format(**inputs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'prescription'
+[ERROR] 2025-01-18 18:15:31,272 django.request log Internal Server Error: /api/health/
+[ERROR] 2025-01-18 18:15:31,272 django.server basehttp "POST /api/health/ HTTP/1.1" 500 67
+[INFO] 2025-01-18 18:20:49,291 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\views.py changed, reloading.
+[INFO] 2025-01-18 18:20:50,640 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 18:20:56,459 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\views.py changed, reloading.
+[INFO] 2025-01-18 18:20:56,878 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 18:21:07,476 django.server basehttp "GET / HTTP/1.1" 200 6457
+[INFO] 2025-01-18 18:21:16,253 agent.views views 수신된 건강 질문: 유방암 환자는 뭘먹어?, 처방전 필요: No
+[INFO] 2025-01-18 18:21:16,253 agent.crew crew Crew 싱글톤 인스턴스 생성 시작
+[INFO] 2025-01-18 18:21:16,253 agent.crew crew Crew 생성 시작
+[INFO] 2025-01-18 18:21:16,254 agent.crew crew Agent 생성 중...
+[INFO] 2025-01-18 18:21:16,258 agent.crew crew Agent 생성 완료
+[INFO] 2025-01-18 18:21:16,258 agent.crew crew Task 생성 중...
+[INFO] 2025-01-18 18:21:16,259 agent.crew crew Task 생성 완료
+[INFO] 2025-01-18 18:21:17,563 agent.crew crew Crew 생성 완료
+[INFO] 2025-01-18 18:21:17,563 agent.crew crew Crew 싱글톤 인스턴스 생성 완료
+[INFO] 2025-01-18 18:21:17,563 agent.views views Crew에 질문 전달 시작
+[INFO] 2025-01-18 18:36:11,694 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 18:36:18,864 django.server basehttp "GET / HTTP/1.1" 200 6457
+[INFO] 2025-01-18 18:36:26,022 agent.views views 수신된 건강 질문: 라면 먹어도 돼?, 처방전 필요: No
+[INFO] 2025-01-18 18:36:26,022 agent.crew crew Crew 싱글톤 인스턴스 생성 시작
+[INFO] 2025-01-18 18:36:26,022 agent.crew crew Crew 생성 시작
+[INFO] 2025-01-18 18:36:26,023 agent.crew crew Agent 생성 중...
+[ERROR] 2025-01-18 18:36:26,024 agent.crew crew Crew 생성 중 오류 발생: "Agent" object has no field "max_iterations"
+Traceback (most recent call last):
+  File "C:\developer\django_home\CancerCareAgent\agent\crew.py", line 31, in create_crew
+    rag_agent.max_iterations = 2  # RAG 검색 최대 2회로 제한
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\pydantic\main.py", line 925, in __setattr__
+    raise ValueError(f'"{self.__class__.__name__}" object has no field "{name}"')
+ValueError: "Agent" object has no field "max_iterations"
+[ERROR] 2025-01-18 18:36:26,026 agent.crew crew Crew 싱글톤 인스턴스 생성 실패: "Agent" object has no field "max_iterations"
+Traceback (most recent call last):
+  File "C:\developer\django_home\CancerCareAgent\agent\crew.py", line 83, in get_crew
+    _crew_instance = create_crew()
+                     ^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\crew.py", line 31, in create_crew
+    rag_agent.max_iterations = 2  # RAG 검색 최대 2회로 제한
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\pydantic\main.py", line 925, in __setattr__
+    raise ValueError(f'"{self.__class__.__name__}" object has no field "{name}"')
+ValueError: "Agent" object has no field "max_iterations"
+[ERROR] 2025-01-18 18:36:26,027 agent.views views Error in health_query: "Agent" object has no field "max_iterations"
+Traceback (most recent call last):
+  File "C:\developer\django_home\CancerCareAgent\agent\views.py", line 81, in health_query
+    crew = get_crew()
+           ^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\crew.py", line 83, in get_crew
+    _crew_instance = create_crew()
+                     ^^^^^^^^^^^^^
+  File "C:\developer\django_home\CancerCareAgent\agent\crew.py", line 31, in create_crew
+    rag_agent.max_iterations = 2  # RAG 검색 최대 2회로 제한
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\developer\python\3.11.6\Lib\site-packages\pydantic\main.py", line 925, in __setattr__
+    raise ValueError(f'"{self.__class__.__name__}" object has no field "{name}"')
+ValueError: "Agent" object has no field "max_iterations"
+[ERROR] 2025-01-18 18:36:26,028 django.request log Internal Server Error: /api/health/
+[ERROR] 2025-01-18 18:36:26,028 django.server basehttp "POST /api/health/ HTTP/1.1" 500 101
+[INFO] 2025-01-18 18:37:57,893 django.utils.autoreload autoreload C:\developer\django_home\CancerCareAgent\agent\crew.py changed, reloading.
+[INFO] 2025-01-18 18:37:58,678 django.utils.autoreload autoreload Watching for file changes with StatReloader
+[INFO] 2025-01-18 18:38:09,416 django.server basehttp "GET / HTTP/1.1" 200 6457
+[INFO] 2025-01-18 18:38:22,010 agent.views views 수신된 건강 질문: 라면 먹어도돼?
+, 처방전 필요: No
+[INFO] 2025-01-18 18:38:22,011 agent.crew crew Crew 싱글톤 인스턴스 생성 시작
+[INFO] 2025-01-18 18:38:22,011 agent.crew crew Crew 생성 시작
+[INFO] 2025-01-18 18:38:22,011 agent.crew crew Agent 생성 중...
+[INFO] 2025-01-18 18:38:22,014 agent.crew crew Agent 생성 완료
+[INFO] 2025-01-18 18:38:22,014 agent.crew crew Task 생성 중...
+[INFO] 2025-01-18 18:38:22,016 agent.crew crew Task 생성 완료
+[INFO] 2025-01-18 18:38:23,179 agent.crew crew Crew 생성 완료
+[INFO] 2025-01-18 18:38:23,179 agent.crew crew Crew 싱글톤 인스턴스 생성 완료
+[INFO] 2025-01-18 18:38:23,179 agent.views views Crew에 질문 전달 시작

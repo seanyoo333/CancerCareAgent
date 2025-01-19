@@ -12,20 +12,76 @@ import PyPDF2
 from io import BytesIO
 from bs4 import BeautifulSoup
 from datetime import datetime
+from database.vector_store_manager import VectorStoreManager
 
 
 # 모듈 레벨에서 전역 변수 선언
 current_year = datetime.now().year
-
 class Tools:
+    def __init__(self):
+        """Tools 클래스 초기화"""
+        pass
 
     @tool("RAG_refering Agent")
-    def rag_search(query: str):
+    def rag_search(self, query: str) -> dict:
         """
         refer to the saved retrival files for information about {query} from the user.
+
+        Args:
+            query (str): 검색할 질문 또는 키워드
+            
+        Returns:
+            dict: 검색 결과를 포함하는 딕셔너리
         """
-        retrival_files = os.listdir("retrival_files")
-        return retrival_files
+        
+        try:
+            # RAG 검색을 위한 retriever 초기화
+            vector_store_manager = VectorStoreManager(
+                pdf_dir="./media/pdfs",
+                vector_store_dir="./media/vectors"
+            )
+            retriever = vector_store_manager.load_retriever()
+
+            if not retriever:
+                return {
+                    "status": "error",
+                    "message": "Retriever가 초기화되지 않았습니다",
+                    "results": []
+                }
+
+            # retriever를 사용하여 관련 문서 검색
+            documents = retriever.invoke(query)
+            
+            # 검색 결과 가공
+            results = []
+            for doc in documents:
+                results.append({
+                    "content": doc.page_content,
+                    "metadata": {
+                        "source": doc.metadata.get('source', 'unknown'),
+                        "page": doc.metadata.get('page', 'unknown'),
+                        "score": doc.metadata.get('score', 0.0)  # 유사도 점수
+                    }
+                })
+
+            return {
+                "status": "success",
+                "query": query,
+                "results": results,
+                "total_matches": len(results),
+                "summary": {
+                    "sources": len(set(r['metadata']['source'] for r in results)),
+                    "avg_score": sum(r['metadata']['score'] for r in results) / len(results) if results else 0
+                }
+            }
+
+        except Exception as e:
+            return {
+                "status": "error",
+                "message": f"검색 중 오류 발생: {str(e)}",
+                "query": query,
+                "results": []
+            }
 
 
     @tool("Web search")
@@ -241,6 +297,4 @@ class Tools:
         )
         
         return prescription
-
-    
 
